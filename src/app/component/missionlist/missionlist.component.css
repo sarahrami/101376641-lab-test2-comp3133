@@ -1,0 +1,61 @@
+.mission-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.card img {
+  width: 100%;
+  max-width: 100px; 
+  height: auto;
+}
+
+.card-info {
+  margin-top: 10px;
+}
+
+.card-title {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  margin-bottom: 5px;
+}
+
+
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; 
+  margin-top: 20px; 
+}
+.input-container .search_input{
+  width: 50rem;
+  height: 3rem;
+  padding: .5rem;
+  border-radius: 2rem;
+  border-color:gainsboro
+}
+
